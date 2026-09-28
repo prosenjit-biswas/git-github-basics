@@ -1,0 +1,23 @@
+### First step is to update the system and install git (commands)-->
+###(Linux)
+
+   sudo apt update
+   sudo apt install git
+
+### Check the version-->
+
+
+   git --version
+
+
+### Step-2 Configure Git — only once(set your name and email)-->
+
+
+   git config --global user.name "Your Name"
+   git config --global user.email "your-email@example.com"
+
+   check this:
+   git config --global --list
+
+### Configuration is done!
+
